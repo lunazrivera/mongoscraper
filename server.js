@@ -11,7 +11,7 @@ var exphbs = require("express-handlebars");
 var PORT = process.env.PORT || 8000;
 
 //If deployed use the deployed database. Otherwise use the local mongoScraper database
-var db = process.env.MONGODB_URI || "mongodb://localhost/mongoScraper"
+var db = process.env.MONGODB_URI || "mongodb://localhost/mongoScraper";
 
 //Connecting to Mongo DB
 mongoose.connect(db, function(error) {
