@@ -1,4 +1,4 @@
-var Note = require("./../models/Note");
+var Note = require("./../models/note");
 var makeDate = require("./../scripts/date");
 
 module.exports = {
